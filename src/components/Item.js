@@ -4,16 +4,16 @@ import "./Item.css";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const Item = ({
-                title, 
-                desc, 
-                descLink, 
-                bgImage, 
-                leftBtnText, 
-                leftBtnLink, 
-                rightBtnText, 
-                rightBtnLink, 
-                twoButtons, 
-                first 
+    title,
+    desc,
+    descLink, 
+    bgImage,
+    leftBtnText,
+    leftBtnLink,
+    rightBtnText,
+    rightBtnLink,
+    twoButtons,
+    first
 }) => {
     return (
         <div 
